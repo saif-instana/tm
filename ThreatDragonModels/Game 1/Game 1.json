@@ -27,6 +27,7 @@
               "id": "64e08a06-2179-4cef-9635-e4243466978a",
               "z": 1,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -46,8 +47,8 @@
                 "height": 80
               },
               "position": {
-                "x": 54,
-                "y": 272
+                "x": 20,
+                "y": 300
               },
               "angle": 0,
               "id": "4b5ae302-e384-4212-9b60-eabc00181cce",
@@ -183,6 +184,11 @@
               "id": "3414555f-c6de-40eb-8af7-d6c7e135b83f",
               "z": 6,
               "hasOpenThreats": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "storesCredentials": true,
+              "isALog": true,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
