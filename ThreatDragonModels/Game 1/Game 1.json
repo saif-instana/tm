@@ -112,7 +112,7 @@
                 "height": 100
               },
               "position": {
-                "x": 367,
+                "x": 368,
                 "y": 364
               },
               "angle": 0,
@@ -124,7 +124,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "internals"
+                  "text": "middleware"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
