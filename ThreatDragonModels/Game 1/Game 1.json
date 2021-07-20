@@ -189,6 +189,7 @@
               "storesCredentials": true,
               "isALog": true,
               "isEncrypted": true,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -369,16 +370,27 @@
               "angle": 0,
               "id": "1c95b8bb-ee12-4922-90e2-98049e3e8cf3",
               "z": 11,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "title": "SQL injection",
+                  "type": "Elevation of privilege",
+                  "description": "Attacker can perform SQL injection",
+                  "mitigation": "Sanitize all user input"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "ui-client"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
